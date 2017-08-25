@@ -1,5 +1,1 @@
-const getPage = require('../getPage');
-
-module.exports = (driver, url) =>
-  driver
-    .get(getPage(url));
+module.exports = (driver, url) => driver.get(url);

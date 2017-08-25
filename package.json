@@ -1,13 +1,13 @@
 {
   "name": "web-driver-utils",
   "version": "1.0.0",
-  "author": "",
+  "author": "Reading Room",
   "description": "Selenium Webdriver utils for faster, more reilable functional testing",
   "scripts": {
-    "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
     "prepublish": "npm run build"
   },
-  "main": "./distribution/index.js",
+  "main": "./dist/index.js",
   "license": "UNLICENSED",
   "private": "true",
   "repository": {
@@ -16,15 +16,17 @@
   },
   "babel": {
     "presets": [
-      "es2015",
-      "react"
+      "es2015"
     ]
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.0.2",
     "lodash": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz",
     "moment": "https://registry.npmjs.org/moment/-/moment-2.18.1.tgz",
     "selenium-webdriver": "3.4.0",
+    "assert": "1.4.1",
     "style-parser": "^1.1.1"
   }
 }
