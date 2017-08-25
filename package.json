@@ -4,7 +4,10 @@
   "author": "",
   "description": "Selenium Webdriver utils for faster, more reilable functional testing",
   "scripts": {
+    "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+    "prepublish": "npm run build"
   },
+  "main": "./distribution/index.js",
   "license": "UNLICENSED",
   "private": "true",
   "repository": {
