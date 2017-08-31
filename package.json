@@ -21,14 +21,16 @@
       "es2015"
     ]
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
+  "dependencies": {
     "chai": "^4.0.2",
     "lodash": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz",
     "moment": "https://registry.npmjs.org/moment/-/moment-2.18.1.tgz",
     "selenium-webdriver": "3.4.0",
     "assert": "1.4.1",
     "style-parser": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
