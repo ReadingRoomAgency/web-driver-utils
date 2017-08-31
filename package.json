@@ -8,8 +8,8 @@
     "prepublish": "npm run build"
   },
   "main": "./dist/index.js",
+  "files": ["dist"],
   "license": "UNLICENSED",
-  "private": "true",
   "repository": {
     "type": "git",
     "url": ""
