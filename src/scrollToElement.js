@@ -1,9 +1,10 @@
 function script(selector) {
   return `
-    var element = document.querySelector('${selector}');
-    document.body.scrollTop = element.offsetTop;
+    document.querySelector('${selector}').scrollIntoView();
   `;
 }
 
 module.exports = (driver, selector) =>
-  driver.executeScript(script(selector));
+  driver.executeScript(script(selector)).then(() => {
+    setTimeout(() => true, 100);
+  });
