@@ -14,6 +14,8 @@ const EMAIL_ADDRESS = 'test@test.com';
 
 const CLICK_BUTTON = 'arguments[0].click();';
 
+const BLUR_ELEMENT = 'arguments[0].blur();';
+
 const GET_COMPUTED_STYLE = 'return getComputedStyle(arguments[0]).getPropertyValue(arguments[1])';
 
 // const HOUR_WIDTH = 260;
@@ -25,5 +27,6 @@ module.exports = {
   SCROLL_INTO_VIEW,
   EMAIL_ADDRESS,
   GET_COMPUTED_STYLE,
+  BLUR_ELEMENT,
   CLICK_BUTTON,
 };
