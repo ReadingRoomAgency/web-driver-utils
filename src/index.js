@@ -3,6 +3,7 @@
 var checkFlags = require('./checkFlags');
 var clickOnElement = require('./clickOnElement');
 var clickOnParentElement = require('./clickOnParentElement');
+var clearElementText = require('./clearElementText');
 var constants = require('./constants');
 var dataTableFirstRow = require('./dataTableFirstRow');
 var dataTableRowsHash = require('./dataTableRowsHash');
@@ -56,6 +57,7 @@ var webElementTextIsNotEmpty = require('./webElementTextIsNotEmpty');
 module.exports = {
   checkFlags: checkFlags,
   clickOnElement: clickOnElement,
+  clearElementText: clearElementText,
   clickOnParentElement: clickOnParentElement,
   constants: constants,
   dataTableFirstRow: dataTableFirstRow,
