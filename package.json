@@ -1,6 +1,6 @@
 {
   "name": "web-driver-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Reading Room",
   "description": "Selenium Webdriver utils for faster, more reilable functional testing",
   "scripts": {
